@@ -14,6 +14,8 @@ This is a reusable React component that integrates with Material-UI's Autocomple
 
 To use this component in your project, clone the repository and install the dependencies:
 
+## Usage
+
 ```jsx
 import GenericComponent from './path/to/GenericComponent';
 
