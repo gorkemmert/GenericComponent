@@ -56,5 +56,18 @@ function MyForm() {
   "Description": "Budget 2023"
   }
   ]
-  
+  ```
+### Props
+
+| Prop Name      | Type       | Required | Default    | Description                                                   |
+| -------------- | ---------- | -------- | ---------- | ------------------------------------------------------------- |
+| `id`           | `string`   | Yes      |            | The ID of the input field.                                     |
+| `name`         | `string`   | Yes      |            | The name of the input field (used for form submission).        |
+| `label`        | `string`   | Yes      |            | The label that will be displayed for the input field.          |
+| `methods`      | `object`   | Yes      |            | Methods from `react-hook-form`.                                |
+| `valueName`    | `string`   | Yes      |            | The key used to display the value in the dropdown list.        |
+| `keyName`      | `string`   | Yes      |            | The key used to identify the selected option.                  |
+| `url`          | `string`   | Yes      |            | The API endpoint to fetch the data from.                       |
+| `disabledPort` | `boolean`  | No       | `false`    | Disable the portal (dropdown will not be rendered in a portal).|
+| `size`         | `string`   | No       | `'small'`  | The size of the input (e.g., `'small'`, `'medium'`).           |
 
