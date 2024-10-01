@@ -14,5 +14,26 @@ This is a reusable React component that integrates with Material-UI's Autocomple
 
 To use this component in your project, clone the repository and install the dependencies:
 
+import GenericComponent from './path/to/GenericComponent';
+
+function MyForm() {
+  const methods = useForm();
+
+  return (
+    <form>
+      <GenericComponent
+        size="medium"
+        id="BudgetId"
+        name="BudgetId"
+        label="Bütçe"
+        methods={methods}
+        disabledPort={false}
+        valueName="Description"
+        keyName="id"
+        url="api/v1/budget"
+      />
+    </form>
+  );
+}
 
 
