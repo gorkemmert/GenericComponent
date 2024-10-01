@@ -40,3 +40,21 @@ function MyForm() {
 }
 
 
+### 3. **JSON Formatı:**
+
+API yanıtı gibi JSON formatındaki verileri de belirli bir biçimde gösterebilirsiniz:
+
+#### JSON Formatı:
+```json
+```json
+[
+  {
+    "id": 1,
+    "Description": "Budget 2024"
+  },
+  {
+    "id": 2,
+    "Description": "Budget 2023"
+  }
+]
+
