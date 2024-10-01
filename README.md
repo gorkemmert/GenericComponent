@@ -38,23 +38,23 @@ function MyForm() {
     </form>
   );
 }
+```
 
-
-### 3. **JSON Formatı:**
-
-API yanıtı gibi JSON formatındaki verileri de belirli bir biçimde gösterebilirsiniz:
-
-#### JSON Formatı:
-```json
-```json
-[
+##JSON Formatı
+  
+  API yanıtı gibi JSON formatındaki verileri de belirli bir biçimde gösterebilirsiniz:
+  
+  #### JSON Formatı:
+  ```json
+  [
   {
-    "id": 1,
-    "Description": "Budget 2024"
+  "id": 1,
+  "Description": "Budget 2024"
   },
   {
-    "id": 2,
-    "Description": "Budget 2023"
+  "id": 2,
+  "Description": "Budget 2023"
   }
-]
+  ]
+  
 
