@@ -40,7 +40,7 @@ function MyForm() {
 }
 ```
 
-##JSON Formatı
+## JSON Formatı
   
   API yanıtı gibi JSON formatındaki verileri de belirli bir biçimde gösterebilirsiniz:
   
